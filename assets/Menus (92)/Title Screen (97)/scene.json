@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "name": "Title Cartridge",
+      "children": [
+        {
+          "name": "Logo",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 99,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 3.5,
+            "z": 0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.017452405798000212,
+            "w": 0.9998476985347309
+          },
+          "scale": {
+            "x": 1.00000001346257,
+            "y": 1.00000001346257,
+            "z": 1
+          },
+          "id": 3
+        },
+        {
+          "name": "Gamepad",
+          "children": [
+            {
+              "name": "Button",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 117,
+                    "animationId": 0
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 1.25,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 8
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 101,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": -2.4,
+            "y": -1.2,
+            "z": 0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 6
+        },
+        {
+          "name": "Keyboard",
+          "children": [
+            {
+              "name": "Button",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 108,
+                    "animationId": 0
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 1.25,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 9
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 102,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": 2.4,
+            "y": -1.2,
+            "z": 0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 7
+        }
+      ],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": 95,
+            "animationId": null
+          },
+          "id": 0
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TitleScreenBehavior"
+          },
+          "id": 1
+        }
+      ],
+      "position": {
+        "x": 10,
+        "y": 6,
+        "z": 18
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": 2
+    }
+  ],
+  "formatVersion": 1
+}

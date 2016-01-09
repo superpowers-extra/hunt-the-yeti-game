@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "name": "Punching Tutorial",
+      "children": [
+        {
+          "name": "Keyboard",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 109,
+                "animationId": 1
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": -3,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 1
+        },
+        {
+          "name": "Gamepad",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 131,
+                "animationId": 0
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": -3,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 2
+        },
+        {
+          "name": "Hold",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 113,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": 1,
+            "y": 0.25,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 4
+        },
+        {
+          "name": "Release",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 114,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": 1,
+            "y": -0.25,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 3
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": 0
+    }
+  ],
+  "formatVersion": 1
+}

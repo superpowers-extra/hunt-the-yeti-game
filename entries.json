@@ -1,0 +1,738 @@
+[
+  {
+    "id": "56",
+    "name": "Credits",
+    "type": "script"
+  },
+  {
+    "id": "79",
+    "name": "Music",
+    "type": "sound"
+  },
+  {
+    "id": "7",
+    "name": "Scene",
+    "type": "scene"
+  },
+  {
+    "id": "105",
+    "name": "Tutorial",
+    "type": null,
+    "children": [
+      {
+        "id": "119",
+        "name": "Move",
+        "type": null,
+        "children": [
+          {
+            "id": "118",
+            "name": "Scene",
+            "type": "scene"
+          },
+          {
+            "id": "110",
+            "name": "To Move",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "124",
+        "name": "Digging",
+        "type": null,
+        "children": [
+          {
+            "id": "125",
+            "name": "Scene",
+            "type": "scene"
+          },
+          {
+            "id": "111",
+            "name": "Hold To Dig",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "126",
+        "name": "Jumping",
+        "type": null,
+        "children": [
+          {
+            "id": "128",
+            "name": "Scene",
+            "type": "scene"
+          },
+          {
+            "id": "112",
+            "name": "Text",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "127",
+        "name": "Punching",
+        "type": null,
+        "children": [
+          {
+            "id": "129",
+            "name": "Scene",
+            "type": "scene"
+          },
+          {
+            "id": "113",
+            "name": "Hold",
+            "type": "sprite"
+          },
+          {
+            "id": "114",
+            "name": "Release",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "141",
+        "name": "Enemies",
+        "type": null,
+        "children": [
+          {
+            "id": "142",
+            "name": "Scene",
+            "type": "scene"
+          },
+          {
+            "id": "143",
+            "name": "Text",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "106",
+        "name": "WASD",
+        "type": "sprite"
+      },
+      {
+        "id": "109",
+        "name": "Mouse Click",
+        "type": "sprite"
+      },
+      {
+        "id": "108",
+        "name": "Space Key",
+        "type": "sprite"
+      },
+      {
+        "id": "116",
+        "name": "Joystick Left",
+        "type": "sprite"
+      },
+      {
+        "id": "132",
+        "name": "Joystick Right",
+        "type": "sprite"
+      },
+      {
+        "id": "117",
+        "name": "Gamepad A",
+        "type": "sprite"
+      },
+      {
+        "id": "130",
+        "name": "Gamepad RT",
+        "type": "sprite"
+      },
+      {
+        "id": "131",
+        "name": "Gamepad LT",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "name": "Menus",
+    "type": null,
+    "children": [
+      {
+        "id": "97",
+        "name": "Title Screen",
+        "type": "scene"
+      },
+      {
+        "id": "98",
+        "name": "Title Screen Behavior",
+        "type": "script"
+      },
+      {
+        "id": "95",
+        "name": "Cartridge",
+        "type": "sprite"
+      },
+      {
+        "id": "99",
+        "name": "Logo",
+        "type": "sprite"
+      },
+      {
+        "id": "100",
+        "name": "Rope",
+        "type": "sprite"
+      },
+      {
+        "id": "101",
+        "name": "Gamepad",
+        "type": "sprite"
+      },
+      {
+        "id": "102",
+        "name": "Keyboard",
+        "type": "sprite"
+      },
+      {
+        "id": "153",
+        "name": "Win",
+        "type": "script"
+      },
+      {
+        "id": "152",
+        "name": "Win Screen",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Maps",
+    "type": null,
+    "children": [
+      {
+        "id": "0",
+        "name": "Tile set",
+        "type": "tileSet"
+      },
+      {
+        "id": "1",
+        "name": "1",
+        "type": "tileMap"
+      },
+      {
+        "id": "31",
+        "name": "2",
+        "type": "tileMap"
+      },
+      {
+        "id": "35",
+        "name": "3",
+        "type": "tileMap"
+      },
+      {
+        "id": "74",
+        "name": "4",
+        "type": "tileMap"
+      },
+      {
+        "id": "76",
+        "name": "5",
+        "type": "tileMap"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Player",
+    "type": null,
+    "children": [
+      {
+        "id": "6",
+        "name": "Player",
+        "type": "script"
+      },
+      {
+        "id": "9",
+        "name": "Body",
+        "type": "sprite"
+      },
+      {
+        "id": "34",
+        "name": "Drill",
+        "type": "sprite"
+      },
+      {
+        "id": "12",
+        "name": "Fist",
+        "type": "sprite"
+      },
+      {
+        "id": "13",
+        "name": "Head",
+        "type": "sprite"
+      },
+      {
+        "id": "55",
+        "name": "Dead",
+        "type": "sprite"
+      },
+      {
+        "id": "46",
+        "name": "Foot Steps",
+        "type": "sound"
+      },
+      {
+        "id": "51",
+        "name": "Digging",
+        "type": "sound"
+      },
+      {
+        "id": "47",
+        "name": "Breaking Ice",
+        "type": "sound"
+      },
+      {
+        "id": "137",
+        "name": "Release Punch",
+        "type": "sound"
+      },
+      {
+        "id": "52",
+        "name": "Punch 1",
+        "type": "sound"
+      },
+      {
+        "id": "53",
+        "name": "Punch 2",
+        "type": "sound"
+      },
+      {
+        "id": "86",
+        "name": "Jump",
+        "type": "sound"
+      },
+      {
+        "id": "91",
+        "name": "Hit",
+        "type": "sound"
+      },
+      {
+        "id": "140",
+        "name": "Die",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Enemies",
+    "type": null,
+    "children": [
+      {
+        "id": "23",
+        "name": "Wave Manager",
+        "type": "script"
+      },
+      {
+        "id": "16",
+        "name": "Enemy",
+        "type": "script"
+      },
+      {
+        "id": "22",
+        "name": "Small",
+        "type": "sprite"
+      },
+      {
+        "id": "77",
+        "name": "Night Small",
+        "type": "sprite"
+      },
+      {
+        "id": "33",
+        "name": "Fly",
+        "type": "sprite"
+      },
+      {
+        "id": "17",
+        "name": "White Yeti",
+        "type": "sprite"
+      },
+      {
+        "id": "72",
+        "name": "Yellow Yeti",
+        "type": "sprite"
+      },
+      {
+        "id": "80",
+        "name": "Yellow Gorilla",
+        "type": "sprite"
+      },
+      {
+        "id": "93",
+        "name": "Boss",
+        "type": "script"
+      },
+      {
+        "id": "39",
+        "name": "Bionic Yeti",
+        "type": "sprite"
+      },
+      {
+        "id": "103",
+        "name": "Rock Behavior",
+        "type": "script"
+      },
+      {
+        "id": "82",
+        "name": "Rock",
+        "type": "sprite"
+      },
+      {
+        "id": "115",
+        "name": "Rock Sound",
+        "type": "sound"
+      },
+      {
+        "id": "83",
+        "name": "Charging",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Ship",
+    "type": null,
+    "children": [
+      {
+        "id": "87",
+        "name": "Ship Behavior",
+        "type": "script"
+      },
+      {
+        "id": "70",
+        "name": "Ship",
+        "type": "sprite"
+      },
+      {
+        "id": "88",
+        "name": "Up",
+        "type": "sprite"
+      },
+      {
+        "id": "63",
+        "name": "Shadow",
+        "type": "sprite"
+      },
+      {
+        "id": "64",
+        "name": "Flam",
+        "type": "sprite"
+      },
+      {
+        "id": "69",
+        "name": "Door",
+        "type": "sprite"
+      },
+      {
+        "id": "89",
+        "name": "Landing",
+        "type": "sound"
+      },
+      {
+        "id": "96",
+        "name": "Door Sound",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "121",
+    "name": "Shop",
+    "type": null,
+    "children": [
+      {
+        "id": "122",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "123",
+        "name": "Shop",
+        "type": "script"
+      },
+      {
+        "id": "133",
+        "name": "Heart",
+        "type": "sprite"
+      },
+      {
+        "id": "134",
+        "name": "Drill",
+        "type": "sprite"
+      },
+      {
+        "id": "135",
+        "name": "Boots",
+        "type": "sprite"
+      },
+      {
+        "id": "136",
+        "name": "Fist",
+        "type": "sprite"
+      },
+      {
+        "id": "138",
+        "name": "Arrow",
+        "type": "sprite"
+      },
+      {
+        "id": "144",
+        "name": "Info",
+        "type": null,
+        "children": [
+          {
+            "id": "147",
+            "name": "Heart",
+            "type": "sprite"
+          },
+          {
+            "id": "145",
+            "name": "Drill",
+            "type": "sprite"
+          },
+          {
+            "id": "148",
+            "name": "Boots",
+            "type": "sprite"
+          },
+          {
+            "id": "146",
+            "name": "Fist",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Effects",
+    "type": null,
+    "children": [
+      {
+        "id": "14",
+        "name": "Shadow",
+        "type": "sprite"
+      },
+      {
+        "id": "20",
+        "name": "Dig",
+        "type": "sprite"
+      },
+      {
+        "id": "21",
+        "name": "Dig Target",
+        "type": "sprite"
+      },
+      {
+        "id": "28",
+        "name": "Splash Behavior",
+        "type": "script"
+      },
+      {
+        "id": "26",
+        "name": "Splash",
+        "type": "sprite"
+      },
+      {
+        "id": "50",
+        "name": "Water Splash",
+        "type": "sound"
+      },
+      {
+        "id": "30",
+        "name": "Ice Cube Behavior",
+        "type": "script"
+      },
+      {
+        "id": "29",
+        "name": "Ice Cube",
+        "type": "sprite"
+      },
+      {
+        "id": "57",
+        "name": "Ice Light",
+        "type": "sprite"
+      },
+      {
+        "id": "54",
+        "name": "Pick Up Gem",
+        "type": "sound"
+      },
+      {
+        "id": "151",
+        "name": "Pick Up Big Gem",
+        "type": "sound"
+      },
+      {
+        "id": "104",
+        "name": "Pick Up Coin",
+        "type": "sound"
+      },
+      {
+        "id": "107",
+        "name": "Pick Up Health",
+        "type": "sound"
+      },
+      {
+        "id": "71",
+        "name": "Snow",
+        "type": "sprite"
+      },
+      {
+        "id": "78",
+        "name": "Stun Behavior",
+        "type": "script"
+      },
+      {
+        "id": "75",
+        "name": "Stun",
+        "type": "sprite"
+      },
+      {
+        "id": "81",
+        "name": "Warning",
+        "type": "sound"
+      },
+      {
+        "id": "84",
+        "name": "Fist",
+        "type": "sprite"
+      },
+      {
+        "id": "85",
+        "name": "Charge Fist",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "name": "HUD",
+    "type": null,
+    "children": [
+      {
+        "id": "38",
+        "name": "Heart",
+        "type": "sprite"
+      },
+      {
+        "id": "45",
+        "name": "Digits",
+        "type": "sprite"
+      },
+      {
+        "id": "48",
+        "name": "Number",
+        "type": "script"
+      },
+      {
+        "id": "49",
+        "name": "Float Up",
+        "type": "script"
+      },
+      {
+        "id": "65",
+        "name": "Wave",
+        "type": null,
+        "children": [
+          {
+            "id": "66",
+            "name": "Text",
+            "type": "sprite"
+          },
+          {
+            "id": "67",
+            "name": "Danger",
+            "type": "sprite"
+          },
+          {
+            "id": "68",
+            "name": "Digits",
+            "type": "sprite"
+          },
+          {
+            "id": "139",
+            "name": "Boss Incoming",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Pick Ups",
+    "type": null,
+    "children": [
+      {
+        "id": "60",
+        "name": "Bonus Manager",
+        "type": "script"
+      },
+      {
+        "id": "44",
+        "name": "Pick Up",
+        "type": "script"
+      },
+      {
+        "id": "61",
+        "name": "Coin",
+        "type": "sprite"
+      },
+      {
+        "id": "43",
+        "name": "Gem",
+        "type": "sprite"
+      },
+      {
+        "id": "150",
+        "name": "Big Gem",
+        "type": "sprite"
+      },
+      {
+        "id": "59",
+        "name": "Health",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Utils",
+    "type": null,
+    "children": [
+      {
+        "id": "10",
+        "name": "Collision",
+        "type": "script"
+      },
+      {
+        "id": "11",
+        "name": "Autotiling",
+        "type": "script"
+      },
+      {
+        "id": "32",
+        "name": "Water Manager",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Manager",
+    "type": "script"
+  }
+]

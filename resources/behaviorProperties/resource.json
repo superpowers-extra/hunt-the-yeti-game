@@ -1,0 +1,604 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "6",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isDead",
+          "type": "boolean"
+        },
+        {
+          "name": "acceleration",
+          "type": "number"
+        },
+        {
+          "name": "maxSpeed",
+          "type": "number"
+        },
+        {
+          "name": "maxDiggingSpeed",
+          "type": "number"
+        },
+        {
+          "name": "slowFactor",
+          "type": "number"
+        },
+        {
+          "name": "width",
+          "type": "number"
+        },
+        {
+          "name": "height",
+          "type": "number"
+        },
+        {
+          "name": "digDuration",
+          "type": "number"
+        },
+        {
+          "name": "isDeadDuration",
+          "type": "number"
+        },
+        {
+          "name": "isDigging",
+          "type": "boolean"
+        },
+        {
+          "name": "isAttacking",
+          "type": "boolean"
+        },
+        {
+          "name": "attackLaunched",
+          "type": "boolean"
+        },
+        {
+          "name": "chargeTimer",
+          "type": "number"
+        },
+        {
+          "name": "chargeDuration",
+          "type": "number"
+        },
+        {
+          "name": "chargeMultiplier",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "speed",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "knockback",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "scale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "angle",
+          "type": "number"
+        },
+        {
+          "name": "jumpPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        },
+        {
+          "name": "digTimer",
+          "type": "number"
+        },
+        {
+          "name": "isDeadTimer",
+          "type": "number"
+        },
+        {
+          "name": "shadowScale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "armPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "attackFXscale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "health",
+          "type": "number"
+        },
+        {
+          "name": "invincibilityTimer",
+          "type": "number"
+        },
+        {
+          "name": "invincibilityDuration",
+          "type": "number"
+        }
+      ]
+    },
+    "TitleScreenBehavior": {
+      "scriptId": "98",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "name": "openPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "closedPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "WinBehavior": {
+      "scriptId": "153",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "scale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "targetScale",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "WaveManager": {
+      "scriptId": "23",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "spawnInterval",
+          "type": "number"
+        },
+        {
+          "name": "timer",
+          "type": "number"
+        },
+        {
+          "name": "wave",
+          "type": "number"
+        },
+        {
+          "name": "mustSpawnBoss",
+          "type": "boolean"
+        },
+        {
+          "name": "changeWaveTimer",
+          "type": "number"
+        },
+        {
+          "name": "changeWaveDuration",
+          "type": "number"
+        }
+      ]
+    },
+    "EnemyBehavior": {
+      "scriptId": "16",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "width",
+          "type": "number"
+        },
+        {
+          "name": "height",
+          "type": "number"
+        },
+        {
+          "name": "changeStateTimer",
+          "type": "number"
+        },
+        {
+          "name": "hitSpeed",
+          "type": "number"
+        },
+        {
+          "name": "minHitSpeed",
+          "type": "number"
+        },
+        {
+          "name": "maxHitSpeed",
+          "type": "number"
+        },
+        {
+          "name": "shadowScale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "name": "fly",
+          "type": "boolean"
+        },
+        {
+          "name": "avoidWater",
+          "type": "boolean"
+        },
+        {
+          "name": "charge",
+          "type": "number"
+        },
+        {
+          "name": "justSpawned",
+          "type": "boolean"
+        },
+        {
+          "name": "spawnPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "spawnMoveVector",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "direction",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "lastDirection",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "keepDirection",
+          "type": "boolean"
+        },
+        {
+          "name": "jumpMoveVector",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "jumpPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        }
+      ]
+    },
+    "BossBehavior": {
+      "scriptId": "93",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "width",
+          "type": "number"
+        },
+        {
+          "name": "height",
+          "type": "number"
+        },
+        {
+          "name": "changeStateTimer",
+          "type": "number"
+        },
+        {
+          "name": "hitSpeed",
+          "type": "number"
+        },
+        {
+          "name": "minHitSpeed",
+          "type": "number"
+        },
+        {
+          "name": "maxHitSpeed",
+          "type": "number"
+        },
+        {
+          "name": "shadowScale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "name": "avoidWater",
+          "type": "boolean"
+        },
+        {
+          "name": "justSpawned",
+          "type": "boolean"
+        },
+        {
+          "name": "spawnPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "spawnMoveVector",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "direction",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "lastDirection",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "keepDirection",
+          "type": "boolean"
+        },
+        {
+          "name": "jumpMoveVector",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "jumpPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        }
+      ]
+    },
+    "RockBehavior": {
+      "scriptId": "103",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "bodyPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "fallSpeed",
+          "type": "number"
+        },
+        {
+          "name": "maxFallSpeed",
+          "type": "number"
+        },
+        {
+          "name": "gravity",
+          "type": "number"
+        }
+      ]
+    },
+    "ShipBehavior": {
+      "scriptId": "87",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "landed",
+          "type": "boolean"
+        },
+        {
+          "name": "fallSpeed",
+          "type": "number"
+        },
+        {
+          "name": "flamTimer",
+          "type": "number"
+        },
+        {
+          "name": "stopFlamTimer",
+          "type": "number"
+        },
+        {
+          "name": "openDoorTimer",
+          "type": "number"
+        },
+        {
+          "name": "playerTimer",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "ShopBehavior": {
+      "scriptId": "123",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "scale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "opened",
+          "type": "boolean"
+        }
+      ]
+    },
+    "SplashBehavior": {
+      "scriptId": "28",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "IceCubeBehavior": {
+      "scriptId": "30",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "timer",
+          "type": "number"
+        },
+        {
+          "name": "floatDuration",
+          "type": "number"
+        },
+        {
+          "name": "x",
+          "type": "number"
+        },
+        {
+          "name": "y",
+          "type": "number"
+        }
+      ]
+    },
+    "StunBehavior": {
+      "scriptId": "78",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "timer",
+          "type": "number"
+        },
+        {
+          "name": "duration",
+          "type": "number"
+        }
+      ]
+    },
+    "NumberBehavior": {
+      "scriptId": "48",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "displayPlus",
+          "type": "boolean"
+        },
+        {
+          "name": "font",
+          "type": "string"
+        }
+      ]
+    },
+    "FloatUpBehavior": {
+      "scriptId": "49",
+      "properties": [
+        {
+          "name": "timer",
+          "type": "number"
+        },
+        {
+          "name": "duration",
+          "type": "number"
+        },
+        {
+          "name": "delay",
+          "type": "number"
+        }
+      ]
+    },
+    "WaterManager": {
+      "scriptId": "32",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "digSteps",
+          "type": "number"
+        },
+        {
+          "name": "iceRegenerationDuration",
+          "type": "number"
+        },
+        {
+          "name": "waterRegenerationDuration",
+          "type": "number"
+        }
+      ]
+    },
+    "BonusManager": {
+      "scriptId": "60",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "spawnTimer",
+          "type": "number"
+        },
+        {
+          "name": "spawnDuration",
+          "type": "number"
+        }
+      ]
+    },
+    "PickUpBehavior": {
+      "scriptId": "44",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "timer",
+          "type": "number"
+        },
+        {
+          "name": "despawnDuration",
+          "type": "number"
+        },
+        {
+          "name": "scoreValue",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "scale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "shadowScale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "objectPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "speed",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    }
+  }
+}

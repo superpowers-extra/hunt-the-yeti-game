@@ -1,0 +1,34 @@
+{
+  "filtering": "pixelated",
+  "pixelsPerUnit": 40,
+  "framesPerSecond": 10,
+  "opactity": 1,
+  "color": {
+    "red": 1,
+    "green": 1,
+    "blue": 1
+  },
+  "grid": {
+    "width": 192,
+    "height": 109
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [],
+  "maps": [
+    "map"
+  ],
+  "opacity": 1,
+  "frameOrder": "rows",
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "formatVersion": 3,
+  "wrapping": "clampToEdge"
+}

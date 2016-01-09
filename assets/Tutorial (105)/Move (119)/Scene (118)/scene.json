@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "name": "Move Tutorial",
+      "children": [
+        {
+          "name": "Keyboard",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 106,
+                "animationId": 0
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": -2,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 0
+        },
+        {
+          "name": "Gamepad",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 116,
+                "animationId": 0
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": -1.5,
+            "y": 0,
+            "z": 0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 2
+        },
+        {
+          "name": "To Move",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 110,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 1
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": 3
+    }
+  ],
+  "formatVersion": 1
+}

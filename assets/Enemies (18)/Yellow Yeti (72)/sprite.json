@@ -1,0 +1,69 @@
+{
+  "filtering": "pixelated",
+  "pixelsPerUnit": 40,
+  "framesPerSecond": 10,
+  "grid": {
+    "width": 83,
+    "height": 64
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.15
+  },
+  "animations": [
+    {
+      "name": "Idle",
+      "startFrameIndex": 0,
+      "endFrameIndex": 5,
+      "id": 0,
+      "speed": 1
+    },
+    {
+      "name": "Chase",
+      "startFrameIndex": 6,
+      "endFrameIndex": 11,
+      "id": 1,
+      "speed": 1
+    },
+    {
+      "name": "Attack",
+      "startFrameIndex": 18,
+      "endFrameIndex": 21,
+      "id": 4,
+      "speed": 1
+    },
+    {
+      "name": "Jump",
+      "startFrameIndex": 12,
+      "endFrameIndex": 12,
+      "id": 3,
+      "speed": 1
+    },
+    {
+      "name": "Stun",
+      "startFrameIndex": 24,
+      "endFrameIndex": 24,
+      "id": 5,
+      "speed": 1
+    }
+  ],
+  "opacity": 1,
+  "color": {
+    "red": 1,
+    "green": 1,
+    "blue": 1
+  },
+  "maps": [
+    "map"
+  ],
+  "frameOrder": "rows",
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "formatVersion": 3,
+  "wrapping": "clampToEdge"
+}

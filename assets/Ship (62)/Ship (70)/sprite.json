@@ -1,0 +1,43 @@
+{
+  "filtering": "pixelated",
+  "pixelsPerUnit": 40,
+  "framesPerSecond": 8,
+  "grid": {
+    "width": 132,
+    "height": 103
+  },
+  "origin": {
+    "x": 0.53,
+    "y": 0.08
+  },
+  "animations": [
+    {
+      "name": "Normal",
+      "startFrameIndex": 0,
+      "endFrameIndex": 0,
+      "id": 1,
+      "speed": 1
+    },
+    {
+      "name": "Animation",
+      "startFrameIndex": 1,
+      "endFrameIndex": 4,
+      "id": 0,
+      "speed": 1
+    }
+  ],
+  "maps": [
+    "map"
+  ],
+  "opacity": 1,
+  "frameOrder": "rows",
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "formatVersion": 3,
+  "wrapping": "clampToEdge"
+}
