@@ -18,7 +18,8 @@
             },
             "depth": 0,
             "nearClippingPlane": 0.1,
-            "farClippingPlane": 1000
+            "farClippingPlane": 1000,
+            "formatVersion": 1
           },
           "id": "0"
         }
@@ -85,7 +86,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -134,7 +136,8 @@
                             "verticalFlip": false,
                             "castShadow": false,
                             "receiveShadow": false,
-                            "materialType": "basic"
+                            "materialType": "basic",
+                            "formatVersion": 1
                           },
                           "id": "0"
                         }
@@ -174,7 +177,8 @@
                             "verticalFlip": false,
                             "castShadow": false,
                             "receiveShadow": false,
-                            "materialType": "basic"
+                            "materialType": "basic",
+                            "formatVersion": 1
                           },
                           "id": "0"
                         }
@@ -212,7 +216,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -274,7 +279,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -312,7 +318,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -388,7 +395,8 @@
             "verticalFlip": false,
             "castShadow": false,
             "receiveShadow": false,
-            "materialType": "basic"
+            "materialType": "basic",
+            "formatVersion": 1
           },
           "id": "0"
         }
@@ -428,7 +436,8 @@
             "verticalFlip": false,
             "castShadow": false,
             "receiveShadow": false,
-            "materialType": "basic"
+            "materialType": "basic",
+            "formatVersion": 1
           },
           "id": "0"
         }
@@ -468,7 +477,8 @@
             "verticalFlip": false,
             "castShadow": false,
             "receiveShadow": false,
-            "materialType": "basic"
+            "materialType": "basic",
+            "formatVersion": 1
           },
           "id": "0"
         }
@@ -511,7 +521,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -554,7 +565,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -594,7 +606,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -634,7 +647,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -720,7 +734,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -766,7 +781,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -806,7 +822,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -844,7 +861,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -887,7 +905,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -927,7 +946,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -965,7 +985,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1008,7 +1029,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -1048,7 +1070,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -1086,7 +1109,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1129,7 +1153,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -1169,7 +1194,8 @@
                         "verticalFlip": false,
                         "castShadow": false,
                         "receiveShadow": false,
-                        "materialType": "basic"
+                        "materialType": "basic",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -1207,7 +1233,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1303,7 +1330,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -1346,7 +1374,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1386,7 +1415,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1426,7 +1456,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1466,7 +1497,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1504,7 +1536,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -1566,7 +1599,8 @@
             "verticalFlip": false,
             "castShadow": false,
             "receiveShadow": false,
-            "materialType": "basic"
+            "materialType": "basic",
+            "formatVersion": 1
           },
           "id": "0"
         }

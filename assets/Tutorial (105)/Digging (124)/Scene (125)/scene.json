@@ -10,8 +10,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 109,
-                "animationId": 0
+                "spriteAssetId": "109",
+                "animationId": "0",
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }
@@ -44,8 +52,16 @@
                 {
                   "type": "SpriteRenderer",
                   "config": {
-                    "spriteAssetId": 130,
-                    "animationId": 0
+                    "spriteAssetId": "130",
+                    "animationId": "0",
+                    "formatVersion": 1,
+                    "overrideOpacity": false,
+                    "color": "ffffff",
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "materialType": "basic"
                   },
                   "id": 0
                 }
@@ -73,8 +89,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 132,
-                "animationId": 0
+                "spriteAssetId": "132",
+                "animationId": "0",
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }
@@ -104,8 +128,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 111,
-                "animationId": null
+                "spriteAssetId": "111",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }

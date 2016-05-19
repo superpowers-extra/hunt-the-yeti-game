@@ -54,8 +54,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 143,
-                "animationId": null
+                "spriteAssetId": "143",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }
