@@ -194,6 +194,7 @@
     },
     "EnemyBehavior": {
       "scriptId": "16",
+      "line": 0,
       "parentBehavior": null,
       "properties": [
         {

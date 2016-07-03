@@ -339,7 +339,10 @@ class EnemyBehavior extends Sup.Behavior {
       this.fly = false;
       this.bodyRndr.setSprite(Sup.get("Enemies/Small", Sup.Sprite));
     }
-      
+    
+    this.jumpPosition.y = 0;
+    this.bodyActor.setLocalPosition(this.jumpPosition);
+    
     this.keepDirection = false;
     this.hitSpeed = this.maxHitSpeed * (2 + power) / 3 * multiplier;
     this.bodyRndr.setAnimation("Stun")
